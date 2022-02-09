@@ -1,0 +1,114 @@
+body{
+    margin:0;
+}
+.container{
+    width: 90%;
+    height: 1180px;
+    background: #d8d8d8;
+    margin:0.5em auto;
+    padding: 0.5em;
+
+}
+
+nav{
+    background: #16A085;
+}
+.menu{
+    text-align:center;
+    margin: 0;
+
+
+}
+.menu li{
+     display: inline-block;
+
+}
+.menu a{
+    padding: 30px;
+
+    color: white;
+    text-decoration:none;
+    display: block;
+
+}
+.menu a:hover{
+    background: #1ABC9C;
+}
+
+
+
+.azul{
+    background:#5499C7;
+    overflow: hidden;
+    color: white;
+    text-align:center;
+    padding:40px;
+}
+.gris{
+    height: 400px;
+    background:url(./imagenes/LAS\ GRANDES.jpg);
+    
+}
+.dos_col{
+    width: 1024px;
+    margin: auto;
+}
+.dos_col .col_left{
+    width: 600px;
+    display: inline-block;
+    
+    vertical-align: top;
+    
+}
+.dos_col .col_right{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+.dos_col .col_right_img{
+    width: 85px;
+    height: 85;
+}
+
+
+.dos_col .col_right a{
+    color: black;
+}
+.dos_col .col_right a:hover{
+    text-decoration: none;
+}
+.dos_col .col_right li{
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background: red;
+    display: inline-block;
+}
+.twitter{
+    background: url(./iconos/icons8-twitter-48.png);
+    
+
+
+}
+.facebook{
+    background: url(./iconos/icons8-facebook-48.png);
+
+
+}
+.rss{
+    background: url(./iconos/icons8-rss-48.png);
+
+
+}
+.footer{
+    background: #16A085;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
